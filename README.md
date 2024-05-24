@@ -24,7 +24,7 @@ Overall, this contract provides basic functionality for depositing and withdrawi
 
 
 
-# Starter Next/Hardhat Project
+# Starter Hardhat Project
 
 After cloning the github, you will want to do the following to get the code running on your computer.
 
