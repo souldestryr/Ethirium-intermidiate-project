@@ -32,7 +32,7 @@ After that we have to link our smart contact to frontend application using the j
 
 ## Authors
 Devansh Sharma
+contact - souldestryr@gmail.com
 
 ## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details    understand this sample readme file from github
+This project is licensed under the MIT License - see the LICENSE.md file for details.
