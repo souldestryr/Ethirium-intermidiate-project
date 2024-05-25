@@ -1,38 +1,42 @@
-# PROJECT DETAILS
-This Solidity smart contract is called "Assessment" and it allows for the management of ETH (Ethereum cryptocurrency) funds. Here's a brief explanation of its key features:
+# Project Title
 
-# State Variables:
-uint public eth: This variable stores the amount of ETH held by the contract.
-address payable public owner: This variable stores the Ethereum address of the contract owner, who has special privileges.
+The Project is using of Smart contracts to link them to frontend application for necessary tasks.
 
-# Events:
-event deposit_funds(uint _eth): This event is emitted when funds are deposited into the contract.
-event withdraw_funds(uint _eth): This event is emitted when funds are withdrawn from the contract.
+## Description
 
-# Constructor:
-constructor(uint _eth): This function initializes the contract with an initial ETH balance specified by _eth and sets the owner to the address that deployed the contract.
+This Solidity smart contract, named "Assessment," manages Ethereum (ETH) funds. It allows users to deposit ETH into the contract and withdraw ETH from it, with the restriction that only the owner of the contract can perform these actions. The contract keeps track of the ETH balance and emits events when funds are deposited or withdrawn. The owner is set upon deployment of the contract, and the contract initializes with an initial ETH balance specified by the constructor parameter _eth.
+After that we have to link our smart contact to frontend application using the java script and have to link metamask wallet for transaction.
 
-# Functions:
-balcheck(): This function allows anyone to view the current ETH balance of the contract.
-deposit(uint _eth): This function allows the owner to deposit additional ETH into the contract. It increases the contract's ETH balance and emits a deposit_funds event.
-withdrawal(uint _eth): This function allows the owner to withdraw ETH from the contract. It checks if the contract has sufficient ETH, subtracts the specified amount from the contract's balance, and emits a withdraw_funds event.
+## Getting Started
 
-# Modifiers:
-The require statements in the deposit and withdrawal functions ensure that only the owner can perform these actions.
-Overall, this contract provides basic functionality for depositing and withdrawing ETH, with restrictions to ensure that only the owner can access certain functionalities.
+### Installing
+
+* You can Download the Program by using this github link:
+* Any modifications needed to be made to files/folders
+
+### Executing program
+
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
+```
+
+## Help
+
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
+
+## Authors
+
+Contributors names and contact info
+
+ex. Dominique Pizzie  
+ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 
+## License
 
-
-# Starter Hardhat Project
-
-After cloning the github, you will want to do the following to get the code running on your computer.
-
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
-
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details    understand this sample readme file from github
